@@ -1,17 +1,3 @@
-import React from 'react';
-
-function Table() {
-  return (
-    <table>
-      <thead>
-
-      </thead>
-
-      <tbody>
-
-      </tbody>
-    </table>
-  );
-}
+import Table from './Table';
 
 export default Table;
