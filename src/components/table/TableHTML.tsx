@@ -82,7 +82,7 @@ function TableHTML() {
               <th>Department</th>
               <th>Email</th>
               <th>Experience</th>
-              <th>Status</th>
+              <th className="th-status">Status</th>
               <th></th>
             </tr>
           </thead>
@@ -110,7 +110,7 @@ function TableHTML() {
               <td>D-Tech</td>
               <td>demo@domain.com</td>
               <td>1 year</td>
-              <td><span className="badge text-bg-primary">Part-time</span></td>
+              <td className="text-center"><span className="badge text-bg-primary">Part-time</span></td>
               <td>
                 <div className="r__action">
                   {/*<a href="javascript:void(0)"><i className="bi bi-three-dots-vertical"></i></a>*/}
@@ -143,7 +143,7 @@ function TableHTML() {
               <td>D-Tech</td>
               <td>demo@domain.com</td>
               <td>4 year</td>
-              <td><span className="badge text-bg-secondary">Part-time</span></td>
+              <td className="text-center"><span className="badge text-bg-secondary">Part-time</span></td>
               <td>
                 <div className="r__action">
                   {/*<a href="javascript:void(0)"><i className="bi bi-three-dots-vertical"></i></a>*/}
@@ -176,7 +176,7 @@ function TableHTML() {
               <td>D-Design</td>
               <td>demo@domain.com</td>
               <td>3 year</td>
-              <td><span className="badge text-bg-success">Part-time</span></td>
+              <td className="text-center"><span className="badge text-bg-success">Part-time</span></td>
               <td>
                 <div className="r__action">
                   {/*<a href="javascript:void(0)"><i className="bi bi-three-dots-vertical"></i></a>*/}
@@ -209,7 +209,7 @@ function TableHTML() {
               <td>D-Tech</td>
               <td>demo@domain.com</td>
               <td>5 year</td>
-              <td><span className="badge text-bg-danger">Full-time</span></td>
+              <td className="text-center"><span className="badge text-bg-danger">Full-time</span></td>
               <td>
                 <div className="r__action">
                   {/*<a href="javascript:void(0)"><i className="bi bi-three-dots-vertical"></i></a>*/}
@@ -242,7 +242,7 @@ function TableHTML() {
               <td>D-Design</td>
               <td>demo@domain.com</td>
               <td>6 year</td>
-              <td><span className="badge text-bg-warning">Full-time</span></td>
+              <td className="text-center"><span className="badge text-bg-warning">Full-time</span></td>
               <td>
                 <div className="r__action">
                   {/*<a href="javascript:void(0)"><i className="bi bi-three-dots-vertical"></i></a>*/}
@@ -275,7 +275,7 @@ function TableHTML() {
               <td>D-Tech</td>
               <td>demo@domain.com</td>
               <td>1 year</td>
-              <td><span className="badge text-bg-info">Part-time</span></td>
+              <td className="text-center"><span className="badge text-bg-info">Part-time</span></td>
               <td>
                 <div className="r__action">
                   {/*<a href="javascript:void(0)"><i className="bi bi-three-dots-vertical"></i></a>*/}
@@ -363,7 +363,7 @@ function TableHTML() {
               <td>D-Tech</td>
               <td>demo@domain.com</td>
               <td>2 year</td>
-              <td>
+              <td className="text-center">
                 <span className="icon__text">
                   <i className="bi bi-dot text-warning fs-1"></i>
                   <span>Full-time</span>
@@ -401,7 +401,7 @@ function TableHTML() {
               <td>D-Tech</td>
               <td>demo@domain.com</td>
               <td>3 year</td>
-              <td>
+              <td className="text-center">
                 <span className="icon__text">
                   <i className="bi bi-chat-right-dots text-success"></i>
                   <span>Full-time</span>
@@ -439,7 +439,7 @@ function TableHTML() {
               <td>D-Tech</td>
               <td>demo@domain.com</td>
               <td>3 year</td>
-              <td>
+              <td className="text-center">
                 <span className="icon__text">
                   <i className="bi bi-chat-right-dots text-primary"></i>
                   <span>Full-time</span>
@@ -477,7 +477,7 @@ function TableHTML() {
               <td>D-Tech</td>
               <td>demo@domain.com</td>
               <td>3 year</td>
-              <td>
+              <td className="text-center">
                 <span className="icon__text">
                   <i className="bi bi-chat-right-dots text-danger"></i>
                   <span>Full-time</span>

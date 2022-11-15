@@ -88,8 +88,15 @@
 
     &__item {
       > a {
+        display: flex;
+        align-items: center;
         margin-right: 16px;
         padding: 3px;
+
+        img,
+        svg {
+          height: 16px;
+        }
       }
 
       i {

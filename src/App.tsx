@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
-import Table from 'components/table';
+// import './App.css';
+// import Table from 'components/table';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
       </header>
       <main>
-        <Table />
+        {/*<Table />*/}
       </main>
     </div>
   );

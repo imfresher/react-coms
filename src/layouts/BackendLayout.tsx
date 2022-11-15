@@ -24,7 +24,7 @@ function BackendLayout(props: BackendLayoutProps) {
 
           <ol className="breadcrumb container-fluid">
             <li>
-              <a href="javascript:void(0)"><i className="bi bi-house"></i> Dashboard</a>
+              <a href="/"><i className="bi bi-house"></i> Dashboard</a>
             </li>
             <li>
               <span className="separation">/</span>

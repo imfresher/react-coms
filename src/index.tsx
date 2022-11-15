@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+// import './index.css';
 // import App from './App';
+// import Table from '__draff/Table';
 import UserIndex from 'backend/users/UserIndex';
 import reportWebVitals from './reportWebVitals';
 
