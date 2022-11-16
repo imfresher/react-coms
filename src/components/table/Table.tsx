@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import THeader from './THeader';
 import TBody from './TBody';
 import {
-  TableProps
+  TableProps,
+  ColumnsType
 } from './interface';
 
 function Table<RecordType>(props: TableProps<RecordType>): React.ReactElement {

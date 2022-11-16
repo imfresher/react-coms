@@ -1,13 +1,11 @@
 import React from 'react';
 import {
-  HeaderProps
+  HeaderProps,
+  CellType,
+  ColumnsType
 } from './interface';
 
-function THeader<RecordType>(props: HeaderProps<RecordType>): React.ReactElement {
-  const { columns } = props;
-
-  console.log(columns);
-
+function THeader<RecordType>({ columns }: HeaderProps<RecordType>): React.ReactElement | null {
   return (
     <thead>
       <tr>
